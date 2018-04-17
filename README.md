@@ -1,1 +1,1 @@
-# holy-clicks
+# holy-clicks is a game
