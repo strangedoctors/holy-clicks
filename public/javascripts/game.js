@@ -16,12 +16,13 @@ function preload ()
     this.load.image('cross', '/images/001-holy-cross.png');
     this.load.image('bible', '/images/002-bible.png');
     this.load.image('flyer', '/images/003-flyer.png');
+    this.load.image('sky', '/images/sky.png');
 }
 
 function create ()
 {
-    this.game.stage.backgroundColor('#FFFFFF');
-    this.add.image('flyer', 400, 300);
+    this.add.image(400, 300, 'sky');
+    this.add.image( 400, 300, 'flyer');
 }
 
 function update ()
